@@ -14,7 +14,7 @@
             Então deve ser direcionado para tela de chekout
 
             Cenário: Autenticação inválida
-            Quando eu digitar o usuário "joao@ebac.com.br"
+            Quando eu digitar o usuário "joao%ebac.com.br"
             E a senha "1234"
             Então deve exibir uma mensagem de alerta "Usuário ou senha inválidos"
 
