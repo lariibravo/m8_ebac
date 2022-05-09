@@ -17,8 +17,9 @@
             E <email>
             Então deve exibir <mensagem>
             Exemplos:
-            | nome      | senha      | pais     | endereço                 | cidade            | cep        | telefone      | email                 | mensagem                                                |
-            | "Larissa" | "Bravo"    | "Brasil" | "Avenida Miguel Padulla" | "Bonfim Paulista" | "14110000" | "16999999999" | "larissa@larissa.com" | ""                                                      |
-            | "Diego"   | "Oliveira" | "Brasil" | "Rua fulano xx"          | "Ribeirão Preto"  | "14096600" | "16999999999" | "diego$com.br"        | "Campos obrigatório devem ser preenchidos corretamente" |
+            | nome             | senha      | pais     | endereço                 | cidade            | cep        | telefone      | email                 | mensagem                                                |
+            | "Larissa"        | "Bravo"    | "Brasil" | "Avenida Miguel Padulla" | "Bonfim Paulista" | "14110000" | "16999999999" | "larissa@larissa.com" | ""                                                      |
+            | "Diego"          | "Oliveira" | "Brasil" | "Rua fulano xx"          | "Ribeirão Preto"  | "14096600" | "16999999999" | "diego$com.br"        | "Campos obrigatório devem ser preenchidos corretamente" |
+            | "Diego oliveira" | ""         | ""       | "Rua fulano xx"          | ""                | ""         | ""            | "diego$com.br"        | "Campos obrigatório devem ser preenchidos corretamente" |
 
 
